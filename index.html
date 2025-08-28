@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NINZPS - GTPS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .rgb-text {
+      font-weight: bold;
+      background: linear-gradient(90deg, red, green, blue);
+      -webkit-background-clip: text;
+      color: transparent;
+      animation: rgb 3s infinite linear;
+      background-size: 300% 100%;
+    }
+    @keyframes rgb {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(8px);
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-black text-white min-h-screen flex flex-col items-center justify-center p-4">
+
+  <header class="text-center mb-8">
+    <h1 class="text-4xl md:text-6xl font-extrabold rgb-text">NINZPS</h1>
+    <p class="mt-4 text-lg md:text-xl">GTPS terbaik untuk kamu yang suka tantangan! Gabung sekarang dan rasakan keseruan NINZ GTPS.</p>
+  </header>
+
+  <main class="grid gap-6 w-full max-w-3xl">
+    
+    <!-- Server Status -->
+    <div class="card text-center">
+      <h2 class="text-2xl font-bold mb-2">Status Server</h2>
+      <p class="text-green-400 font-semibold">ONLINE ✅</p>
+    </div>
+
+    <!-- PTunnel Link -->
+    <div class="card">
+      <h2 class="text-xl font-bold mb-2">PTunnel Link</h2>
+      <a href="https://skyhosting.lol/ptunnel.txt" class="text-blue-400 underline break-all">https://skyhosting.lol/ptunnel.txt</a>
+    </div>
+
+    <!-- Copy Windows -->
+    <div class="card">
+      <h2 class="text-xl font-bold mb-2">Copy Windows</h2>
+      <pre class="bg-black p-3 rounded text-sm">
+103.42.116.171 www.growtopia1.com
+103.42.116.171 www.growtopia2.com
+      </pre>
+    </div>
+
+    <!-- iOS Connection -->
+    <div class="card">
+      <h2 class="text-xl font-bold mb-2">iOS Connection</h2>
+      <a href="https://skyhosting.lol/iOS" class="text-blue-400 underline break-all">https://skyhosting.lol/iOS</a>
+    </div>
+
+    <!-- WhatsApp Group -->
+    <div class="card text-center">
+      <h2 class="text-xl font-bold mb-2">Join WhatsApp Group</h2>
+      <a href="https://chat.whatsapp.com/FINi0aQGaBGKKIaJkNRl0t?mode=ems_copy_c" target="_blank" class="bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600 transition">Gabung Sekarang</a>
+    </div>
+
+  </main>
+
+  <footer class="mt-8 text-center text-gray-400">
+    &copy; 2025 NINZPS GTPS. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
